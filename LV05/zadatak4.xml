@@ -1,0 +1,11 @@
+<property>
+  <type>house</type>
+  <description>Beautiful family house with a sea view.</description>
+  <address>
+    <street>Primorska Street 45</street>
+    <city>Split</city>
+    <zip>21000</zip>
+  </address>
+  <price currency="HRK">3500000</price>
+  <year_built>2010</year_built>
+</property>

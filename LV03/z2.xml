@@ -1,0 +1,13 @@
+<!--ZADATAK2-->
+<?xml version="1.0" encoding="UTF-8"?>
+<Oglas> 
+    <Stan>Stan: Zaprešić, centar, 4-sobni stan 99.95 m2 s garažom (prodaja)</Stan>
+    <Lokacija>Zagrebačka, Zaprešić, Centar</Lokacija>
+    <Cijena>139.000 €</Cijena>
+    <OpisOglasa>
+        <Povrsina>99,95 m²</Povrsina>
+        <BrojEtaza>Jednoetažni</BrojEtaza>
+        <BrojSoba>4</BrojSoba>
+        <GodinaIgradnje>2001</GodinaIgradnje>
+    </OpisOglasa>
+</Oglas>

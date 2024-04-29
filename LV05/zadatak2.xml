@@ -1,0 +1,26 @@
+<!--ZADATAK 2-->
+<?xml version="1.0" encoding="UTF-8"?>
+<nekretnina>
+  <vrsta>kuća</vrsta>
+  <adresa>
+    <ulica>Primorska ulica 45</ulica>
+    <grad>Split</grad>
+    <drzava>Hrvatska</drzava>
+    <postanski_broj>21000</postanski_broj>
+  </adresa>
+  <povrsina>
+    <ukupna>150</ukupna>
+    <terasa>25</terasa>
+    <okucnica>50</okucnica>
+  </povrsina>
+  <broj_soba>4</broj_soba>
+  <broj_kupatila>3</broj_kupatila>
+  <cijena valuta="HRK">3500000</cijena>
+  <godina_izgradnje>2010</godina_izgradnje>
+  <opis>Predivna obiteljska kuća s pogledom na more, moderno uređena i prostrana.</opis>
+  <slike>
+    <slika url="https://primjer.com/slika1.jpg" />
+    <slika url="https://primjer.com/slika2.jpg" />
+    <slika url="https://primjer.com/slika3.jpg" />
+  </slike>
+</nekretnina>

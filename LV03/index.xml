@@ -1,0 +1,70 @@
+<!-- ZADATAK 1 -->
+<!--XML = Extensible Markup Language; Extensible znači da mi možemo personalizirati jezik u potpunosti prema našim potrebama (nazivi, oznaka, struktura)
+sve dok pratimo pravila pisanja, sintakse, ne moramo striktno određeno pisati, nego prilagoditi svojim potreba, možemo dodati što
+god nam je potrebno; Markup znači da u pisanju XML, XML dokument sadrži oznake koje označuju strukturu i sadržaj dokumenta, a te oznake pomažu u organizaciji podataka,
+i čini dokument razumljiv ljudima i računalima. Ono omogućava raznim aplikacija da interpretiraju i obrade informacije na temelju strukture.
+Razlika je ta što markup jezik se koristi za predstavljanje informacija(strukturiranje informacija), dok se programski jezik koristi za davanje uputa računalu za obavljanje određenog zadatka(softveri, aplikacije...).
+Svaki programski jezik mora sadržavati varijable, grananje te iteraciju. Dok XML korijenski element.    -->
+
+<!-- ZADATAK 2-->
+<!-- encoding="UTF-8" - UTF je kratica za UCS Transformation Format, a sam UCS znači Universal Character Set; 
+Broj 8 odnosi se na broj bitova koji se koriste za predstavljanje znaka -->
+<?xml version =="1.0" encoding =="UTF-8" standalone =="yes" ?>
+
+<!-- ZADATAK 3-->
+<!-- primjer samo zatvarajućih -> <br /> <hr /> <img /> 
+<img src="img.jpg" /> -> html <element id="1" /> -> xml;
+vrijednosti se dodaju pomoću atributa
+-->
+
+<!--ZADATAK 4-->
+<BankineNekretnine kreirala="Martina Rakitić" datum="2024-03-25">
+    <Nekretnina>
+        <Lokacija>Vrbik</Lokacija>
+        <Grad>Zagreb</Grad>
+        <Kvadratura>50</Kvadratura>
+        <BrojSoba>1</BrojSoba>
+        <Cijena>50000</Cijena>
+        <Vlasnik>Ana Anić</Vlasnik>
+    </Nekretnina>
+    <Nekretnina>
+        <Lokacija>Prečko</Lokacija>
+        <Grad>Zagreb</Grad>
+        <Kvadratura>150</Kvadratura>
+        <BrojSoba>3</BrojSoba>
+        <Cijena>100000</Cijena>
+        <Vlasnik>Ivo Ivić</Vlasnik>
+    </Nekretnina>
+    <Nekretnina>
+        <Lokacija>Pantovčak</Lokacija>
+        <Grad>Zagreb</Grad>
+        <Kvadratura>200</Kvadratura>
+        <BrojSoba>5</BrojSoba>
+        <Cijena>300000</Cijena>
+        <Vlasnik>Iva Ivance</Vlasnik>
+    </Nekretnina>
+</BankineNekretnine>
+
+<!--ZADATAK 5 -->
+table>tr*2>td*2>a.link[href]
+<table>
+    <tr>
+        <td><a href="" class="link"></a></td>
+        <td><a href="" class="link"></a></td>
+    </tr>
+    <tr>
+        <td><a href="" class="link"></a></td>
+        <td><a href="" class="link"></a></td>
+    </tr>
+</table>
+
+<!--ZADATAK 6 -->
+<!-- RSS je nastao iz XML-a.  Razlika je što XML je označni jezik koji daje pravila za definiranje bilo kojih podataka,
+ a RSS je format datoteke za udruživanje web sadržaja(vijesti, blog, oglasi), te se on nadopunjuje periodično.  -->
+
+ <!--ZADATAK 7-->
+ <manjeOd> &lt; </manjeOd>
+
+ <!--ZADATAK 8-->
+ <!--Zato što želimo unutar XML dokumenta ispisati znakove koje želimo da ostani upravo onakvi kakvi jesu(<, &...). 
+ XML takve znakove može tretirati kao dio svoje strukture, te ih potom krivo protumačiti. Koristiće CDATA XML parser ih ne tumači.-->

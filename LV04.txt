@@ -1,0 +1,39 @@
+Napišite XPath izraz koji daje:
+1)  imena svih studenata
+/Studenti/Student/Ime/text()
+
+2)  naslove svih predmeta svih studenata
+/Studenti/Student/Predmet/Naslov/text()
+
+3)  četvrtu vježbu trećeg studenta
+/Studenti/Student[3]/Predmet/Vjezbe/Vjezba[@Sifra="Xml4_4"]
+
+4)  sve vježbe drugog studenta na kojima nije bio
+/Studenti/Student[2]/Predmet/Vjezbe/Vjezba[text() = "NE"]
+
+5)  zbroj bodova svih studenata na kolokvijima
+sum(//Student//Kolokvij)
+
+6)  prezime studenta koji je posljednji u nizu
+//Student[last()]/Prezime/text()
+
+7)  ima li treći student u imenu slovo 'a'?
+contains(//Student[3]/Ime, "a") 
+
+8)  ime drugog studenta spojeno s prezimenom četvrtog
+ concat(//Student[2]/Ime, " " ,//Student[4]/Prezime)
+
+9)  broj godina studenta pod rednim brojem 3
+2024 - /Studenti/Student[3]/GodinaRodjenja/text()
+
+10) postoji li student sa pet bodova na nekom kolokviju?
+boolean(//Kolokvij[text()='5'])
+
+11) duljina prezimena četvrtog studenta i imena drugog studenta zajedno
+string-length(//Student[4]/Prezime) + string-length(//Student[2]/Ime)
+
+12) broj vježbi na kojima student pod rednim brojem dva nije bio
+count(//Student[2]/Predmet/Vjezbe/Vjezba[text() = "NE"])
+
+13) postoji li student sa nula bodova na drugom kolokviju
+boolean(//Kolokvij[2][text()='0'])

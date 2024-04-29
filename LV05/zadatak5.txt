@@ -1,0 +1,22 @@
+Napiši XPath izraze koji će ispisivati:
+
+1. nazive svih studenata
+//student/ime
+
+2. nazive svih predmeta prvog studenta
+//student[1]/predmeti/predmet/naziv/text()
+
+3. broj znakova u jmbagu drugog studenta
+string-length(//student[2]/JMBAG)
+
+4. koliko ima studenata ukupno u listi
+count(/studenti/student)
+
+5. ispisati samo one šifre predmeta koji imaju atribut `<predmet **skraceno**="">` u sebi
+//predmeti/predmet[@skraceno]/sifra
+
+6. ispisati koliko studenata ima ime Petar
+count(//student[ime="Petar"])
+
+7. ispisati ime, prezime i jmbag posljednjeg studenta, odvojeno zarezom, primjer: `Petar, Jurić, 1112233445`
+concat(//student[last()]/ime/text(), ', ' ,//student[last()]/prezime/text(), ', ', //student[last()]/JMBAG)

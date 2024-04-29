@@ -1,0 +1,68 @@
+<!--ZADATAK 1-->
+<?xml version="1.0" encoding="UTF-8"?>
+<ISVU>
+    <student>
+        <osobni_podaci JMBAG="0246109104">
+         <ime>Martina</ime>
+         <prezime>Rakitić</prezime>
+         <datum_rodenja>2003-08-27</datum_rodenja>
+        </osobni_podaci>
+        <podaci_o_studiranju>
+            <smjer>Informatika</smjer>
+            <podsmjer>Elektroničko poslovanje</podsmjer>
+            <kolegiji>
+                <kolegij>
+                    <naziv>Engleski jezik u informatici 1</naziv>
+                </kolegij>
+                <kolegij>
+                    <naziv>Društvene mreže</naziv>
+                </kolegij>
+                <kolegij>
+                    <naziv>Kineziološka kultura III</naziv>
+                </kolegij>
+                <kolegij>
+                    <naziv>Obrada slike, zvuka i videa</naziv>
+                </kolegij>
+                <kolegij>
+                    <naziv>Napredno elektroničko poslovanje u ekonomiji</naziv>
+                </kolegij>
+                <kolegij>
+                    <naziv>Objektno orijentirano programiranje</naziv>
+                </kolegij>
+                <kolegij>
+                    <naziv>Komunikacijske strategije za inženjere</naziv>
+                </kolegij>
+                <kolegij>
+                    <naziv>Vjerojatnost i statistika</naziv>
+                </kolegij>
+                <kolegij>
+                    <naziv>Engleski jezik u informatici 2</naziv>
+                </kolegij>
+                <kolegij>
+                    <naziv>Baze podataka</naziv>
+                </kolegij>
+                 <kolegij>
+                    <naziv>Kineziološka kultura IV</naziv>
+                </kolegij>
+                 <kolegij>
+                    <naziv>Socio tehnološki aspekti Informacijskih sustava</naziv>
+                </kolegij>
+                <kolegij>
+                    <naziv>Pretražnici i navigacija na Web-u</naziv>
+                </kolegij>
+                <kolegij>
+                    <naziv>Projektni razvoj programske podrške</naziv>
+                </kolegij>
+                <kolegij>
+                    <naziv>Programiranje web aplikacija</naziv>
+                </kolegij>
+                <kolegij>
+                    <naziv>XML programiranje</naziv>
+                </kolegij>
+            </kolegiji>
+            <najtezi_kolegij>
+                <naziv>Objektno orijentirano programiranje</naziv>
+            </najtezi_kolegij>
+        </podaci_o_studiranju>
+    </student>
+</ISVU>

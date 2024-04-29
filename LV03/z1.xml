@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CV>
+    <Ime>Pero</Ime>
+    <Prezime>Perić</Prezime>
+    <BrojMobitela>097 666 7777</BrojMobitela>
+    <DatumRodenja>1995-01-01</DatumRodenja>
+
+    <PopisObrazovanja>
+        <Obrazovanje razina="VSS">
+            <Institucija>Fakultet političkih znanosti u Donjoj Batini</Institucija>
+            <GodinaPocetka>2020</GodinaPocetka>
+            <GodinaZavrsetka></GodinaZavrsetka>
+        </Obrazovanje>
+        <Obrazovanje razina="SSS">
+            <Institucija>Srednja škola u Donjoj Batini</Institucija>
+            <GodinaPocetka>2015</GodinaPocetka>
+            <GodinaZavrsetka>2019</GodinaZavrsetka>
+        </Obrazovanje>
+    </PopisObrazovanja>
+     
+    <RadnaIskustva>
+        <RadnoIskustvo oib="48374857461">
+            <DatumPocetka>2020-01-01</DatumPocetka>
+            <DatumZavrsetka>2021-01-01</DatumZavrsetka>
+            <NazivTvrtke>Fini media</NazivTvrtke>
+            <VrstaTvrtke>d.o.o.</VrstaTvrtke>
+        </RadnoIskustvo>
+    </RadnaIskustva>
+</CV>

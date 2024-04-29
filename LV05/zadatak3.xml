@@ -1,0 +1,26 @@
+<!--ZADATAK 3 -->
+<?xml version="1.0" encoding="UTF-8"?>
+<Student>
+    <JMBAG>0246109104</JMBAG>
+    <Ime>Martina</Ime>
+    <Prezime>Rakitić</Prezime>
+    <DatumRodjenja>2003-08-27</DatumRodjenja>
+    <Spol>Ž</Spol>
+    <Studij>
+        <Naziv>Informatika</Naziv>
+        <Razina>Preddiplomski</Razina>
+    </Studij>
+    <Upisi>
+        <Upis>
+        <AkademskaGodina>2</AkademskaGodina>
+        <Semestar>4</Semestar>
+        <Predmeti>
+            <Predmet>
+                <Sifra>29961/240400</Sifra>
+                <Naziv>XML programiranje</Naziv>
+                <ECTS>5</ECTS>
+            </Predmet>
+        </Predmeti>
+        </Upis>
+    </Upisi>
+</Student>
